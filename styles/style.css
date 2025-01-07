@@ -96,6 +96,7 @@
 .card-container {
     display: flex;
     justify-content: space-between;
+    font-family: Work Sans;
 }
 
 .card .shop {
