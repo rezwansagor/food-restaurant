@@ -21,7 +21,7 @@
 
 }
 
-.btn {
+.btnh {
     padding: 21px 32px 21px 32px;
     border-radius: 8px;
     background: rgb(82, 195, 3);
@@ -34,6 +34,13 @@
     letter-spacing: 0%;
     text-align: center;
 
+}
+
+.btn {
+    border: none;
+    padding: 21px 32px 21px 32px;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
 }
 
 .btn-container {
@@ -75,23 +82,68 @@
     opacity: 0.7;
     margin-bottom: 32px;
 }
+
 .card {
     max-width: 424px;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    justify-content: center;
+    align-items: center;
 }
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .shop {
+    padding: 14px 32px 14px 32px;
+    color: rgb(16, 16, 16);
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+}
+
+.card .description2 {
+    opacity: 0.7;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.card .title2 {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 47px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
 .card .image-box {
     width: 224px;
 }
+
 .card .image-box img {
     width: 100%;
 }
+
 
 #card-box {
     width: 1320px;
     margin: 167px auto;
 }
+
 #card-box .info {
     margin-bottom: 48px;
 }
+
 #card-box .title {
     color: rgb(16, 16, 16);
     font-family: Work Sans;
@@ -101,6 +153,7 @@
     letter-spacing: 0%;
     text-align: center;
 }
+
 #card-box .subtitle {
     opacity: 0.6;
     color: rgb(16, 16, 16);
